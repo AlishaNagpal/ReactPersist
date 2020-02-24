@@ -20,7 +20,7 @@ export default class SignInComponent extends React.Component<SignInProps, SignIn
         return (
             <View style={{flex:1, justifyContent: 'center', alignItems:'center'}}>
                 <Text>SignIn Component</Text>
-                <TouchableOpacity onPress={() => this.onPress()}>
+                <TouchableOpacity onPress={() => this.onBugCheck4()}>
                     <Text>BugTrace Check</Text>
                 </TouchableOpacity>
             </View>
