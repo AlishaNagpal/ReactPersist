@@ -9,11 +9,11 @@ Sentry.init({
   release: 'appinventiv-2j' 
 });
 
-Sentry.setTag("myTag", "tag-value");
-Sentry.setExtra("myExtra", "extra-value");
-Sentry.addBreadcrumb({ message: "test" });
-
-Sentry.captureMessage("Hello Sentry!");
+// const configureSentry = () => {
+//   Sentry.config(config.sentry.dsn).install();
+//   Sentry.setDist(DeviceInfo.getBuildNumber());
+//   Sentry.setRelease(`${DeviceInfo.getBundleId()}-${DeviceInfo.getVersion()}`);
+// };
 
 export default class createAccountBirthMain extends Component {
   render() {
